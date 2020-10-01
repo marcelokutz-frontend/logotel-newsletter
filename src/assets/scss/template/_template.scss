@@ -1,0 +1,161 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+//font google
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #f3f3f3 !important;
+}
+
+.container.header {
+  background: #f3f3f3;
+}
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+
+// Full Width Headers
+.header {
+  background: #8a8a8a;
+}
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  color: #fff;
+  padding-top: 15px;
+}
+
+.header .wrapper-inner {
+  padding: 20px;
+}
+
+.header .container {
+  background: transparent;
+}
+
+// Social Media
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+
+.wrapper.secondary {
+  background: #f3f3f3;
+}
+
+.img-onda {
+  margin-top: -50px;
+  @media(min-width: 992px) {
+    margin-top: -80px!important;
+  }
+}
+
+.bg-dark {
+  background-color: #272727;
+  color: #fff;
+  p, a {
+    color: #fff;
+  }
+  h1 {
+    color: #F07C79;
+    font-weight: 700;
+    font-size: 26px;
+    @media(min-width: 992px) {
+      font-size: 40px;
+    }
+  }
+}
+
+.block-content {
+  td.large-12.first, th.large-12.first,
+  td.large-6.first, th.large-6.first {
+    padding-left: 50px;
+  }
+  td.large-12.last, th.large-12.last,
+  td.large-6.last, th.large-6.last {
+    padding-right: 50px;
+  }
+}
+
+.btn-default {
+  &.button table td {
+    background-color: #ee7d79!important;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    display: block;
+    border-radius: 16px;
+    a {
+      font-size: 21px;
+      font-weight: 700;
+      padding: 18px 25px
+    }
+  }
+}
+
+.content-color-01 {
+  h2 {
+    color: #F07C79;
+    font-weight: 700;
+    @media(min-width: 992px) {
+      font-size: 24px;
+    }
+  }
+  a {
+    color: #F07C79;
+    font-size: 16px;
+    font-weight: 700;
+  }
+}
+.content-color-02 {
+  h2 {
+    color: #28AFB0;
+    font-weight: 700;
+    @media(min-width: 992px) {
+      font-size: 24px;
+    }
+  }
+  a {
+    color: #28AFB0;
+    font-size: 16px;
+    font-weight: 700;
+  }
+}
+.content-color-03 {
+  h2 {
+    color: #E2CA40;
+    font-weight: 700;
+    @media(min-width: 992px) {
+      font-size: 24px;
+    }
+  }
+  a {
+    color: #E2CA40;
+    font-size: 16px;
+    font-weight: 700;
+  }
+}
+.footer {
+  p { font-size: 12px; }
+  a {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+  }
+}
